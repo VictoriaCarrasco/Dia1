@@ -1,0 +1,29 @@
+.imagenprincipal{
+    width: 200px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width:20px;
+}
+
+
+#message{
+    margin-top:20px;
+}
+
+#send{
+    margin-top:20px;
+}
+
+.parrafo{
+    display: flex;
+}
+
+.logop {
+    width: 100px;
+}
