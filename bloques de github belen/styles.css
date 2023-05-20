@@ -1,0 +1,80 @@
+#container {
+    background-color: rgb(196, 217, 221);
+    width: 700px;
+    height: 800px;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid black;
+}
+
+.titulo{
+    color:rgb(50, 62, 63);
+    display: flex; 
+    justify-content: center;
+}
+
+.arriba{
+    background-color: black;
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.negro{
+    width: 160px;;
+    height: 160px; 
+    padding: 20px;
+}
+
+
+.medio{
+    background-color: lightblue;
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.celeste{
+    width: 160px;;
+    height: 160px; 
+    padding: 20px;
+}
+
+.abajo{
+    background-color: whitesmoke;
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.blanco{
+    width: 160px;;
+    height: 160px; 
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+a{
+    color: rgb(74, 172, 199);
+}
