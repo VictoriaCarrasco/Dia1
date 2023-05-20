@@ -1,0 +1,41 @@
+.nav {
+    background-color: rgb(54, 53, 53);
+    color: white; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.nav-title{
+    margin-left: 20px;
+}
+
+.nav-links{
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+li{
+    margin: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.669);
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    background-color: rgb(101, 203, 221);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 2px 3px black;
+}
